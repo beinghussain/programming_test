@@ -130,7 +130,7 @@ const runJob = async () => {
     "Mininum Population": `${minPopulation} (${
       newData.find(d => d.population === minPopulation).city
     })`,
-    "Maxiumum Population": `${maxPopulation} (${
+    "Maximum Population": `${maxPopulation} (${
       newData.find(d => d.population === maxPopulation).city
     })`,
     "Total Population": totalPopulation
